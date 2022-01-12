@@ -1,0 +1,1 @@
+document.write("<h1>我超猛的拉</h1>");
