@@ -7,9 +7,26 @@
 
     
 
-var btn = document.getElementById("btn");
+// var btn = document.getElementById("btn");
+// btn.addEventListener("click",function(){
+//     alert("叫妳按就按阿");
+//     this.innerText = "按屁阿";
+//     this.style.color = "red";
+// })
+
+var btn =  document.getElementById("btn");
 btn.addEventListener("click",function(){
     alert("叫妳按就按阿");
-    this.innerText = "按屁阿";
+    this.innerText = "按屁阿!";
     this.style.color = "red";
+})
+
+var img =  document.getElementById("img");
+// 滑鼠滑入
+img.addEventListener("mouseover",function(){
+    this.src = "456.jpg";
+})
+//滑鼠滑出
+img.addEventListener("mouseout",function(){
+    this.src = "123.jpg";
 })

@@ -8,11 +8,18 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <img id="img" src=""
-    <h1 id= "header" >我好帥</h1>
-    <button id="btn" onclick="handle_click(this)">按我</button>
-    <br>
-    <a id="link" href = "https://www.google.com.tw/">https://www.google.com.tw/</a>
-    <script src="script-evnt-listener.js"></script>
+    <h1>小白的部落格</h1>
+    <p>標題</p>
+    <input type="text" id = "title" />
+    <p>內容</p>
+    <textarea id="content" rows="8"></textarea>
+    <button id = "btn">發布</button>
+    <div id="list">
+        <div class="article">
+            <h2>今天天氣真好</h2>
+            <p>今天天氣雖然很好,但是早上一出門就踩到狗屎</p>
+        </div>
+    </div>
+    <script src="script-blog.js"></script>
 </body>
 </html>
